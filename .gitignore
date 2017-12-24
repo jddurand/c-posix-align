@@ -64,3 +64,6 @@ CTestTestfile.cmake
 LICENSE.txt
 Makefile
 cmake_install.cmake
+
+# Emacs garbage
+*~

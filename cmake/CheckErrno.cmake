@@ -90,7 +90,7 @@ IF (HAVE_ERRNO_H AND HAVE_STDIO_H)
       )
     TRY_RUN(_run_result _compile_result
       ${CMAKE_CURRENT_BINARY_DIR}
-      ${CMAKE_CURRENT_SOURCE_DIR}/cmake/checkErrno.c
+      ${CMAKE_CURRENT_SOURCE_DIR}/cmake/CheckErrno.c
       COMPILE_DEFINITIONS "-DCHECKERRNO=${KEYWORD}"
       COMPILE_OUTPUT_VARIABLE _compile_output
       RUN_OUTPUT_VARIABLE _run_output

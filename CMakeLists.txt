@@ -6,4 +6,5 @@ IF (POLICY CMP0048)
   CMAKE_POLICY (SET CMP0048 NEW)
 ENDIF ()
 
+INCLUDE (cmake/CMakeSetup.cmake)
 INCLUDE (cmake/CheckErrno.cmake)
